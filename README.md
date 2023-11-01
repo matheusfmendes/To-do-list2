@@ -28,25 +28,29 @@ Siga estes passos para executar o projeto localmente:
 ### Passos
 
 1. Clone este repositório:
-
-git clone https://github.com/matheusfmendes/To-do-list
+```bash
+  git clone https://github.com/matheusfmendes/To-do-list
+```
 
 2. Acesse o diretório do projeto:
-
-cd nome-do-repositorio
-
+```bash
+cd To-do-list
+```
 3. Instale as dependências:
-
+```bash
 npm install
+```
 
 4. Inicie o servidor JSON:
-
+```bash
 json-server --watch db.json
+```
 
 
 5. Inicie a aplicação:
-
+```bash
 npm run serve
+```
 
 
 6. Abra o navegador e acesse `http://localhost:8080` para visualizar a aplicação.
